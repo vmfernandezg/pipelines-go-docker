@@ -1,0 +1,16 @@
+apiVersion : apps/v1beta1
+kind: Deployment
+metadata:
+  name: vmfernandezgpipelinesgodocker 
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: vmfernandezgpipelinesgodocker 
+    spec:
+      containers:
+        - name: vmfernandezgpipelinesgodocker 
+          image: vfernandezg.azurecr.io/vmfernandezgpipelinesgodocker 
+          ports:
+          - containerPort: 80
