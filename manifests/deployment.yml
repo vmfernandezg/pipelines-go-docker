@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: vmfernandezgpipelinesgodocker 
 spec:
-  replicas: 3
+  replicas: 2
   template:
     metadata:
       labels:
